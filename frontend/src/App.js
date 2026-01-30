@@ -241,7 +241,7 @@ const HeroSection = () => {
   return (
     <section id="inicio" data-testid="hero-section" className="hero-section bg-slate-50">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen py-24 lg:py-0">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-80px)] py-24 lg:py-12 pt-28 lg:pt-24">
           {/* Content */}
           <div className="order-2 lg:order-1 z-10 animate-fade-in-up">
             <p className="text-sm uppercase tracking-widest text-[#005EB8] font-semibold mb-4">
