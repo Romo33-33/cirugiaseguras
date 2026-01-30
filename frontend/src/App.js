@@ -1159,6 +1159,7 @@ function App() {
         <HeroSection />
         <AboutSection />
         <ServicesSection />
+        <PackageSection />
         <ConditionsSection />
         <BenefitsSection />
         <PatientsSection />
