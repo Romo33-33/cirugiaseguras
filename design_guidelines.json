@@ -1,0 +1,170 @@
+{
+  "design_system": {
+    "typography": {
+      "font_family": {
+        "heading": "Playfair Display, serif",
+        "body": "Lato, sans-serif",
+        "accent": "Manrope, sans-serif"
+      },
+      "scale": {
+        "h1": "text-5xl md:text-6xl font-bold tracking-tight leading-tight",
+        "h2": "text-4xl md:text-5xl font-semibold tracking-tight",
+        "h3": "text-2xl md:text-3xl font-medium",
+        "body_large": "text-lg md:text-xl leading-relaxed",
+        "body_default": "text-base leading-relaxed text-slate-600",
+        "caption": "text-sm text-slate-500 uppercase tracking-widest"
+      }
+    },
+    "colors": {
+      "palette": {
+        "primary": {
+          "DEFAULT": "#005EB8",
+          "hover": "#004C97",
+          "light": "#E0F2FE"
+        },
+        "secondary": {
+          "DEFAULT": "#64748B",
+          "dark": "#334155"
+        },
+        "accent": {
+          "DEFAULT": "#0EA5E9",
+          "glow": "rgba(14, 165, 233, 0.5)"
+        },
+        "background": {
+          "default": "#FFFFFF",
+          "subtle": "#F8FAFC",
+          "dark": "#0F172A"
+        },
+        "text": {
+          "primary": "#1E293B",
+          "secondary": "#64748B",
+          "inverted": "#FFFFFF"
+        }
+      },
+      "gradients": {
+        "hero_overlay": "linear-gradient(to right, #F8FAFC 0%, rgba(248,250,252,0.8) 50%, rgba(248,250,252,0) 100%)",
+        "blue_glow": "radial-gradient(circle at center, rgba(14, 165, 233, 0.15) 0%, transparent 70%)"
+      }
+    },
+    "spacing": {
+      "container_padding": "px-6 md:px-12 lg:px-24",
+      "section_spacing": "py-20 md:py-32",
+      "element_spacing": "gap-6 md:gap-12"
+    },
+    "visual_enhancers": {
+      "radius": "rounded-xl",
+      "shadows": {
+        "card": "shadow-[0_2px_8px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_24px_rgba(0,0,0,0.08)] transition-shadow duration-300",
+        "floating": "shadow-[0_8px_30px_rgb(0,0,0,0.12)]"
+      },
+      "glassmorphism": "bg-white/80 backdrop-blur-md border-b border-slate-100",
+      "borders": "border border-slate-100"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#005EB8] text-white hover:bg-[#004C97] rounded-full px-8 py-3 font-medium transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5",
+      "secondary": "bg-white text-[#005EB8] border border-[#005EB8]/20 hover:bg-[#005EB8]/5 rounded-full px-8 py-3 font-medium transition-all",
+      "floating_whatsapp": "fixed bottom-8 right-8 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform duration-300 flex items-center justify-center"
+    },
+    "cards": {
+      "service": "group relative bg-white p-8 rounded-2xl border border-slate-100 hover:border-blue-100 transition-all duration-300 hover:shadow-lg overflow-hidden",
+      "feature": "bg-slate-50 p-6 rounded-xl border border-slate-100"
+    },
+    "inputs": {
+      "default": "flex h-12 w-full rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm ring-offset-white file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-slate-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#005EB8] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    }
+  },
+  "layout_structure": {
+    "header": {
+      "type": "sticky",
+      "style": "glassmorphism",
+      "height": "h-20",
+      "elements": ["Logo (Left)", "Nav Links (Center)", "Book CTA (Right)"]
+    },
+    "hero": {
+      "type": "split_asymmetric",
+      "left_col": "col-span-12 lg:col-span-5 flex flex-col justify-center z-10",
+      "right_col": "col-span-12 lg:col-span-7 relative h-[600px] lg:h-[800px]",
+      "background": "bg-slate-50"
+    },
+    "services_grid": {
+      "type": "bento_grid",
+      "config": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+    }
+  },
+  "assets": {
+    "images": {
+      "logo": {
+        "url": "https://customer-assets.emergentagent.com/job_0795af87-d9c0-4ec7-995f-6ecc755051f1/artifacts/ae59hybe_ChatGPT%20Image%2027%20ene%202026%2C%2023_02_17-Photoroom.png",
+        "alt": "Dr. Luis Enrique Rodríguez Romo Merino Logo",
+        "usage": "Header, Footer"
+      },
+      "hero_doctor": {
+        "url": "https://customer-assets.emergentagent.com/job_0795af87-d9c0-4ec7-995f-6ecc755051f1/artifacts/f6s576fu_WhatsApp%20Image%202026-01-28%20at%2003.49.13.jpeg",
+        "alt": "Dr. Luis Enrique Rodríguez Romo Merino",
+        "usage": "Hero Section (Right side, cutout effect)"
+      },
+      "about_team": {
+        "url": "https://customer-assets.emergentagent.com/job_0795af87-d9c0-4ec7-995f-6ecc755051f1/artifacts/e6y396fi_WhatsApp%20Image%202026-01-29%20at%2019.43.49.jpeg",
+        "alt": "Surgical Team in Operating Room",
+        "usage": "About Section / Experience"
+      },
+      "hospital_exterior": {
+        "url": "https://images.unsplash.com/photo-1615770949303-a4eb0ba7aa2e",
+        "alt": "Hospital San Ángel Inn Satélite Exterior",
+        "usage": "Contact Section / Location Background"
+      },
+      "consultation": {
+        "url": "https://images.pexels.com/photos/4266948/pexels-photo-4266948.jpeg",
+        "alt": "Doctor consulting with patient",
+        "usage": "Patients Section / Philosophy"
+      },
+      "surgery_prep": {
+        "url": "https://images.unsplash.com/photo-1579684288452-b334934f845f",
+        "alt": "Surgical preparation",
+        "usage": "Services Background / Detail"
+      },
+      "abstract_bg": {
+        "url": "https://images.unsplash.com/photo-1624220547827-5ac2ffa94eff",
+        "alt": "Abstract Medical Blue Background",
+        "usage": "Hero Background Layer / Section Dividers"
+      }
+    },
+    "icons": {
+      "library": "lucide-react",
+      "style": "stroke-1 text-[#005EB8]"
+    }
+  },
+  "content_strategy": {
+    "tone": "Professional, Empathetic, Trustworthy, Clear",
+    "key_messages": [
+      "Especialista en Cirugía General y Laparoscopía Avanzada",
+      "Atención humana y personalizada en Satélite",
+      "Tecnología de vanguardia para tu salud"
+    ],
+    "cta_primary": "Agendar Cita",
+    "cta_secondary": "Conocer más"
+  },
+  "instructions_to_main_agent": [
+    "Use 'Playfair Display' ONLY for H1, H2, H3 headings. Use 'Lato' for all body text.",
+    "Implement the 'Glassmorphism' header with a blur effect (backdrop-blur-md).",
+    "The Hero section must use the provided 'hero_doctor' image. Ensure it is high quality and properly positioned.",
+    "Use the 'bento_grid' layout for the Services section. Do not use a simple list.",
+    "The 'Contact' section must include a working form (visual only) and the Google Map placeholder.",
+    "Ensure the 'Floating WhatsApp' button is always visible on mobile and desktop.",
+    "Use the provided 'logo' in the header. Adjust height to fit h-16 or h-20 container.",
+    "Strictly follow the color palette. Do not use generic blue. Use #005EB8.",
+    "Add 'data-testid' to all interactive elements.",
+    "Use 'sonner' for toast notifications on form submission.",
+    "For the 'Patients' section, use the Shadcn Accordion component for FAQs.",
+    "Ensure the site is fully responsive. Mobile menu must be a Sheet or Dropdown."
+  ],
+  "universal_guidelines": [
+    "Avoid 'AI slop' - generic centered layouts. Use asymmetry.",
+    "Use 2-3x more spacing than typical (p-12, p-24).",
+    "Micro-animations on hover are mandatory.",
+    "No gradients on text unless specified.",
+    "Dark mode is NOT required. Focus on a pristine Light Mode."
+  ]
+}
