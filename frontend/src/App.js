@@ -398,7 +398,7 @@ const ServicesSection = () => {
       description: "Corrección de hernias umbilicales con procedimientos seguros y eficaces.",
     },
     {
-      icon: <Stethoscope className="w-8 h-8" />,
+      icon: <img src="https://customer-assets.emergentagent.com/job_dr-rodriguez-romo/artifacts/u8j7ptdv_image.png" alt="Cirugía de cuello" className="w-full h-full object-contain" />,
       title: "Cirugía de cuello",
       description: "Procedimientos quirúrgicos especializados en patologías de la región cervical.",
     },
