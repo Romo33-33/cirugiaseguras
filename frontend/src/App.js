@@ -279,7 +279,7 @@ const HeroSection = () => {
           
           {/* Image */}
           <div className="order-1 lg:order-2 relative">
-            <div className="hero-image-container relative h-[180px] lg:h-[320px] rounded-2xl overflow-hidden shadow-2xl">
+            <div className="hero-image-container relative h-[120px] lg:h-[210px] rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src={ASSETS.heroDoctor}
                 alt="Dr. Luis Enrique Rodríguez Romo Merino"
