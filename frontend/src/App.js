@@ -378,7 +378,7 @@ const AboutSection = () => {
 const ServicesSection = () => {
   const services = [
     {
-      icon: <Activity className="w-8 h-8" />,
+      icon: <img src="https://customer-assets.emergentagent.com/job_dr-rodriguez-romo/artifacts/czjx85ru_image.png" alt="Colecistectomía" className="w-full h-full object-contain" />,
       title: "Colecistectomía laparoscópica",
       description: "Extirpación de vesícula biliar mediante técnica mínimamente invasiva con recuperación rápida.",
     },
