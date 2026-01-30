@@ -321,12 +321,6 @@ const AboutSection = () => {
                 data-testid="about-team-image"
               />
             </div>
-            {/* Experience badge */}
-            <div className="absolute -bottom-6 -right-6 bg-[#005EB8] text-white rounded-2xl p-6 shadow-xl hidden lg:block">
-              <p className="text-4xl font-bold">+10</p>
-              <p className="text-sm opacity-90">Años de experiencia</p>
-            </div>
-          </div>
           
           {/* Content */}
           <div id="formacion">
