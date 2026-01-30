@@ -685,6 +685,89 @@ const PatientsSection = () => {
   );
 };
 
+// Payment Methods Section
+const PaymentSection = () => {
+  return (
+    <section data-testid="payment-section" className="py-20 md:py-32 bg-white">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <div className="text-center mb-16">
+          <p className="text-sm uppercase tracking-widest text-[#005EB8] font-semibold mb-4">
+            Métodos de Pago
+          </p>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+            Aceptamos Todos los Métodos de Pago
+          </h2>
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+            Para tu comodidad, trabajamos con múltiples formas de pago y las principales aseguradoras.
+          </p>
+        </div>
+
+        {/* Payment Methods Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+          <div data-testid="payment-transfer" className="bg-slate-50 rounded-2xl p-6 text-center border border-slate-100 hover:border-[#005EB8]/20 transition-all">
+            <div className="w-14 h-14 bg-[#E0F2FE] rounded-xl flex items-center justify-center mx-auto mb-4">
+              <svg className="w-7 h-7 text-[#005EB8]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+              </svg>
+            </div>
+            <h4 className="font-semibold text-slate-900">Transferencias Bancarias</h4>
+          </div>
+          <div data-testid="payment-credit" className="bg-slate-50 rounded-2xl p-6 text-center border border-slate-100 hover:border-[#005EB8]/20 transition-all">
+            <div className="w-14 h-14 bg-[#E0F2FE] rounded-xl flex items-center justify-center mx-auto mb-4">
+              <svg className="w-7 h-7 text-[#005EB8]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+              </svg>
+            </div>
+            <h4 className="font-semibold text-slate-900">Tarjetas de Crédito</h4>
+          </div>
+          <div data-testid="payment-debit" className="bg-slate-50 rounded-2xl p-6 text-center border border-slate-100 hover:border-[#005EB8]/20 transition-all">
+            <div className="w-14 h-14 bg-[#E0F2FE] rounded-xl flex items-center justify-center mx-auto mb-4">
+              <svg className="w-7 h-7 text-[#005EB8]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+              </svg>
+            </div>
+            <h4 className="font-semibold text-slate-900">Tarjetas de Débito</h4>
+          </div>
+          <div data-testid="payment-cash" className="bg-slate-50 rounded-2xl p-6 text-center border border-slate-100 hover:border-[#005EB8]/20 transition-all">
+            <div className="w-14 h-14 bg-[#E0F2FE] rounded-xl flex items-center justify-center mx-auto mb-4">
+              <svg className="w-7 h-7 text-[#005EB8]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
+            </div>
+            <h4 className="font-semibold text-slate-900">Pagos en Efectivo</h4>
+          </div>
+        </div>
+
+        {/* Credit Card Logos */}
+        <div className="mb-16">
+          <h3 className="text-xl font-semibold text-slate-900 text-center mb-8">Tarjetas Aceptadas</h3>
+          <div className="flex justify-center items-center">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_dr-rodriguez-romo/artifacts/5ogepktd_image.png" 
+              alt="Visa, Mastercard, American Express"
+              className="max-w-md w-full h-auto"
+              data-testid="card-logos"
+            />
+          </div>
+        </div>
+
+        {/* Insurance Companies */}
+        <div>
+          <h3 className="text-xl font-semibold text-slate-900 text-center mb-8">Aseguradoras con las que Trabajamos</h3>
+          <div className="bg-slate-50 rounded-2xl p-8 border border-slate-100">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_dr-rodriguez-romo/artifacts/xjfpgyte_image.png" 
+              alt="Aseguradoras: AXA, MetLife, Inbursa, Bupa, Seguros Atlas, Allianz, GNP, Banorte, Mapfre, Zurich, Multiva, Plan Seguro, Seguros Monterrey"
+              className="w-full h-auto max-w-4xl mx-auto"
+              data-testid="insurance-logos"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 // CTA Section
 const CTASection = () => {
   return (
