@@ -388,7 +388,7 @@ const ServicesSection = () => {
       description: "Cirugía para extirpar el apéndice, ya sea de forma programada o de urgencia.",
     },
     {
-      icon: <CircleDot className="w-8 h-8" />,
+      icon: <img src="https://customer-assets.emergentagent.com/job_dr-rodriguez-romo/artifacts/2loz7lad_image.png" alt="Hernioplastia inguinal" className="w-full h-full object-contain" />,
       title: "Hernioplastia inguinal",
       description: "Reparación quirúrgica de hernias inguinales con técnicas modernas y mallas de última generación.",
     },
