@@ -1086,6 +1086,7 @@ function App() {
         <ConditionsSection />
         <BenefitsSection />
         <PatientsSection />
+        <PaymentSection />
         <CTASection />
         <ContactSection />
       </main>
