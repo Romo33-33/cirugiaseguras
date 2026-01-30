@@ -383,7 +383,7 @@ const ServicesSection = () => {
       description: "Extirpación de vesícula biliar mediante técnica mínimamente invasiva con recuperación rápida.",
     },
     {
-      icon: <img src="https://customer-assets.emergentagent.com/job_dr-rodriguez-romo/artifacts/q4w6kf3a_image.png" alt="Apendicectomía" className="w-8 h-8 object-contain" />,
+      icon: <img src="https://customer-assets.emergentagent.com/job_dr-rodriguez-romo/artifacts/eim9vxye_image.png" alt="Apendicectomía" className="w-full h-full object-contain" />,
       title: "Apendicectomía",
       description: "Cirugía para extirpar el apéndice, ya sea de forma programada o de urgencia.",
     },
