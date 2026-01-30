@@ -462,28 +462,28 @@ const PackageSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Incluye */}
           <div className="text-white">
-            <h3 className="text-2xl font-bold mb-8 border-b-2 border-white/30 pb-3 inline-block">
+            <h3 className="text-3xl font-bold mb-8 border-b-2 border-white/30 pb-3 inline-block">
               Incluye:
             </h3>
-            <ul className="space-y-5">
-              <li className="flex items-center gap-4 text-lg">
-                <div className="w-2 h-2 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
+            <ul className="space-y-6">
+              <li className="flex items-center gap-4 text-2xl md:text-3xl">
+                <div className="w-3 h-3 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
                 <span>Hospitalización 24 horas.</span>
               </li>
-              <li className="flex items-center gap-4 text-lg">
-                <div className="w-2 h-2 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
+              <li className="flex items-center gap-4 text-2xl md:text-3xl">
+                <div className="w-3 h-3 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
                 <span>Renta de quirófano 2 horas.</span>
               </li>
-              <li className="flex items-center gap-4 text-lg">
-                <div className="w-2 h-2 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
+              <li className="flex items-center gap-4 text-2xl md:text-3xl">
+                <div className="w-3 h-3 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
                 <span>Equipo de laparoscopia.</span>
               </li>
-              <li className="flex items-center gap-4 text-lg">
-                <div className="w-2 h-2 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
+              <li className="flex items-center gap-4 text-2xl md:text-3xl">
+                <div className="w-3 h-3 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
                 <span>Medicamentos y materiales de curación.</span>
               </li>
-              <li className="flex items-center gap-4 text-lg">
-                <div className="w-2 h-2 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
+              <li className="flex items-center gap-4 text-2xl md:text-3xl">
+                <div className="w-3 h-3 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
                 <span>Honorarios de equipo médico.</span>
               </li>
             </ul>
