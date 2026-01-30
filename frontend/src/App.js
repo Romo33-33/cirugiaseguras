@@ -734,22 +734,22 @@ const PatientsSection = () => {
         </div>
         
         {/* FAQ Section */}
-        <div id="faq" className="max-w-3xl mx-auto">
-          <h3 className="text-2xl font-semibold text-slate-900 mb-8 text-center">
+        <div id="faq" className="max-w-4xl mx-auto">
+          <h3 className="text-3xl md:text-4xl font-semibold text-slate-900 mb-10 text-center">
             Preguntas Frecuentes
           </h3>
-          <Accordion type="single" collapsible className="faq-accordion space-y-4">
+          <Accordion type="single" collapsible className="faq-accordion space-y-5">
             {faqs.map((faq, index) => (
               <AccordionItem
                 key={index}
                 value={`faq-${index}`}
                 data-testid={`faq-item-${index}`}
-                className="bg-white rounded-xl border border-slate-100 px-6 overflow-hidden"
+                className="bg-white rounded-xl border border-slate-100 px-8 overflow-hidden"
               >
-                <AccordionTrigger className="py-5 text-left font-medium text-slate-900 hover:no-underline">
+                <AccordionTrigger className="py-6 text-left font-medium text-slate-900 hover:no-underline text-xl md:text-2xl">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="pb-5 text-slate-600 leading-relaxed">
+                <AccordionContent className="pb-6 text-slate-600 leading-relaxed text-lg md:text-xl">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
