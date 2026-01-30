@@ -393,7 +393,7 @@ const ServicesSection = () => {
       description: "Reparación quirúrgica de hernias inguinales con técnicas modernas y mallas de última generación.",
     },
     {
-      icon: <CircleDot className="w-8 h-8" />,
+      icon: <img src="https://customer-assets.emergentagent.com/job_dr-rodriguez-romo/artifacts/2loz7lad_image.png" alt="Hernioplastia umbilical" className="w-full h-full object-contain" />,
       title: "Hernioplastia umbilical",
       description: "Corrección de hernias umbilicales con procedimientos seguros y eficaces.",
     },
