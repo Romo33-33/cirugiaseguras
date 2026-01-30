@@ -439,6 +439,87 @@ const ServicesSection = () => {
   );
 };
 
+// Package Promo Section
+const PackageSection = () => {
+  return (
+    <section data-testid="package-section" className="py-20 md:py-32 bg-gradient-to-br from-[#005EB8] to-[#003d77] relative overflow-hidden">
+      {/* Background pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-white/20 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute bottom-0 left-0 w-64 h-64 bg-white/10 rounded-full blur-2xl transform -translate-x-1/2 translate-y-1/2"></div>
+      </div>
+      
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+            Paquete de Cirugía Laparoscópica
+          </h2>
+          <p className="text-xl md:text-2xl text-[#7dd3fc] italic">
+            Recuperación rápida y sin cicatrices
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Incluye */}
+          <div className="text-white">
+            <h3 className="text-2xl font-bold mb-8 border-b-2 border-white/30 pb-3 inline-block">
+              Incluye:
+            </h3>
+            <ul className="space-y-5">
+              <li className="flex items-center gap-4 text-lg">
+                <div className="w-2 h-2 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
+                <span>Hospitalización 24 horas.</span>
+              </li>
+              <li className="flex items-center gap-4 text-lg">
+                <div className="w-2 h-2 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
+                <span>Renta de quirófano 2 horas.</span>
+              </li>
+              <li className="flex items-center gap-4 text-lg">
+                <div className="w-2 h-2 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
+                <span>Equipo de laparoscopia.</span>
+              </li>
+              <li className="flex items-center gap-4 text-lg">
+                <div className="w-2 h-2 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
+                <span>Medicamentos y materiales de curación.</span>
+              </li>
+              <li className="flex items-center gap-4 text-lg">
+                <div className="w-2 h-2 bg-[#7dd3fc] rounded-full flex-shrink-0"></div>
+                <span>Honorarios de equipo médico.</span>
+              </li>
+            </ul>
+          </div>
+          
+          {/* Precio */}
+          <div className="text-center lg:text-right">
+            <div className="inline-block">
+              <p className="text-white/80 text-xl mb-2">De</p>
+              <p className="text-white/60 text-4xl md:text-5xl font-bold line-through decoration-2 mb-4">
+                $45,000
+              </p>
+              <p className="text-white/80 text-xl mb-2">a solo</p>
+              <p className="text-white text-5xl md:text-7xl font-bold drop-shadow-lg">
+                $40,000
+              </p>
+              <p className="text-[#7dd3fc] text-lg mt-4">MXN</p>
+            </div>
+            
+            <div className="mt-10">
+              <button
+                onClick={() => window.open(`https://wa.me/5215537171796?text=${encodeURIComponent("Hola Dr. Rodríguez Romo, me interesa el paquete de Cirugía Laparoscópica de $40,000. ¿Podría darme más información?")}`, "_blank")}
+                data-testid="package-whatsapp-btn"
+                className="bg-[#25D366] hover:bg-[#1fb855] text-white px-10 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 hover:shadow-xl inline-flex items-center gap-3"
+              >
+                <MessageCircle className="w-6 h-6" />
+                ¡Lo quiero!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 // Conditions Section
 const ConditionsSection = () => {
   const conditions = [
