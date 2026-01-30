@@ -321,6 +321,7 @@ const AboutSection = () => {
                 data-testid="about-team-image"
               />
             </div>
+          </div>
           
           {/* Content */}
           <div id="formacion">
