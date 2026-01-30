@@ -992,7 +992,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Logo & Info */}
           <div>
-            <img src={ASSETS.logo} alt="Logo" className="h-14 mb-4 brightness-0 invert" />
+            <img src="https://customer-assets.emergentagent.com/job_dr-rodriguez-romo/artifacts/n3y6ece3_logo%204.png.png" alt="Logo" className="h-24 mb-4" />
             <p className="text-slate-400 leading-relaxed">
               Dr. Luis Enrique Rodríguez Romo Merino<br />
               Especialista en Cirugía General<br />
