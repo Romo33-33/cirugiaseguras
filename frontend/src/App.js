@@ -31,7 +31,7 @@ import {
 
 // Assets URLs
 const ASSETS = {
-  logo: "https://customer-assets.emergentagent.com/job_0795af87-d9c0-4ec7-995f-6ecc755051f1/artifacts/ae59hybe_ChatGPT%20Image%2027%20ene%202026%2C%2023_02_17-Photoroom.png",
+  logo: "https://customer-assets.emergentagent.com/job_dr-rodriguez-romo/artifacts/ow5jeuzb_logo%204.png.png",
   heroDoctor: "https://customer-assets.emergentagent.com/job_0795af87-d9c0-4ec7-995f-6ecc755051f1/artifacts/f6s576fu_WhatsApp%20Image%202026-01-28%20at%2003.49.13.jpeg",
   teamSurgery: "https://customer-assets.emergentagent.com/job_0795af87-d9c0-4ec7-995f-6ecc755051f1/artifacts/e6y396fi_WhatsApp%20Image%202026-01-29%20at%2019.43.49.jpeg",
 };
