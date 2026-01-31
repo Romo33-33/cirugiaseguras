@@ -494,11 +494,11 @@ const PackageSection = () => {
             <div className="inline-block">
               <p className="text-white/80 text-xl mb-2">De</p>
               <p className="text-white/60 text-4xl md:text-5xl font-bold line-through decoration-2 mb-4">
-                $45,000
+                $48,000
               </p>
               <p className="text-white/80 text-xl mb-2">a solo</p>
               <p className="text-white text-5xl md:text-7xl font-bold drop-shadow-lg">
-                $40,000
+                $42,000
               </p>
               <p className="text-[#7dd3fc] text-lg mt-4">MXN</p>
             </div>
