@@ -505,7 +505,7 @@ const PackageSection = () => {
             
             <div className="mt-10">
               <button
-                onClick={() => window.open(`https://wa.me/5215537171796?text=${encodeURIComponent("Hola Dr. Rodríguez Romo, me interesa el paquete de Cirugía Laparoscópica de $40,000. ¿Podría darme más información?")}`, "_blank")}
+                onClick={() => window.open(`https://wa.me/5215537171796?text=${encodeURIComponent("Hola Dr. Rodríguez Romo, me interesa el paquete de Cirugía Laparoscópica de $42,000. ¿Podría darme más información?")}`, "_blank")}
                 data-testid="package-whatsapp-btn"
                 className="bg-[#25D366] hover:bg-[#1fb855] text-white px-10 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 hover:shadow-xl inline-flex items-center gap-3"
               >
