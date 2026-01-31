@@ -1123,7 +1123,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Dr. Luis Enrique Rodríguez Romo Merino. Todos los derechos reservados.
           </p>
           <p className="text-slate-400 text-sm text-center">
-            CÉDULAS DGP | SCFP 20202005
+            CÉDULAS DGP | SCFP 20202005 | COFEPRIS
           </p>
           <a
             href="#"
