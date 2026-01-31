@@ -1122,6 +1122,9 @@ const Footer = () => {
           <p className="text-slate-500 text-sm text-center md:text-left">
             © {new Date().getFullYear()} Dr. Luis Enrique Rodríguez Romo Merino. Todos los derechos reservados.
           </p>
+          <p className="text-slate-400 text-sm text-center">
+            CÉDULAS DGP | SCFP 20202005
+          </p>
           <a
             href="#"
             data-testid="privacy-policy-link"
